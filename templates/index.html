@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filippino-Sites</title>
+    <link rel="stylesheet" href="../accents/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="sun">☀️</span> Филиппины — это рай
+        </div>
+        <nav>
+            <a href="#manila">Манила</a>
+            <a href="#manila">Панглао</a>
+            <a href="#bohol">Бохоль</a>
+            <a href="#cebu">Себу</a>
+            <a href="#boracay">Боракай</a>
+            <a href="#contact" class="btn-contact">Написать нам</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Филиппины — это рай</h1>
+            <p>От небоскребов Манилы до белоснежных пляжей Боракая</p>
+        </div>
+    </section>
+
+    <section class="slider-container">
+    <div class="slider-viewport">
+        <div class="slider-track" id="track">
+            <div class="slide-card"><img src="../accents/img/manila/IMG_20260214_171815_892.jpg" alt="Манила"><p>Манила</p></div>
+            <div class="slide-card"><img src="../accents/img/Bohol/IMG_20260216_121748_630.jpg" alt="Бохоль"><p>Бохоль</p></div>
+            <div class="slide-card"><img src="../accents/img/Cebu/IMG_20260218_135745_705.jpg" alt="Себу"><p>Себу</p></div>
+            <div class="slide-card"><img src="../accents/img/Barocay/IMG_20260220_125506_525.jpg" alt="Боракай"><p>Боракай</p></div>
+            <div class="slide-card"><img src="../accents/img/panglao/IMG_20260215_181155_047.jpg" alt="Панглао"><p>Панглао</p></div>
+            </div>
+    </div>
+    <div class="slider-nav">
+        <button onclick="moveSlide(-1)">❮</button>
+        <button onclick="moveSlide(1)">❯</button>
+    </div>
+</section>
+
+    <section id="contact" class="contact-section">
+        <div class="glass-form">
+            <h2>Привет с Боракая!</h2>
+            <form id="feedback-form">
+                <input type="text" id="name" placeholder="Твое имя" required>
+                <input type="email" id="email" placeholder="Твой Email" required>
+                <textarea id="message" placeholder="Сообщение..." required></textarea>
+                <button type="submit">Отправить в рай 🌴</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Uliana. Сделано с любовью на Филиппинах.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
